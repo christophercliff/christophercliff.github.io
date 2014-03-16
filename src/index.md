@@ -7,7 +7,7 @@ title: Christopher Cliff | New York, NY
 
 ---
 
-### I specialize in **rapid product development**. That means: *conceptually complete*, *realized* software components that *meet a business objective*, delivered *efficiently* and at *high quality*.
+### I specialize in **rapid product development**. That means: *conceptually complete*, *realized* software components that *meet a business objective*, delivered *efficiently* and of *high quality*.
 
 ---
 
