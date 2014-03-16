@@ -22,15 +22,15 @@ I generally work with the following *tools*:
 *Selected work*:
 
 - 2014
-    - [Carapace][#], an image manipulation platform for JavaScript
-    - [Neue][#], an asynchronous web font loader
-    - [Loomis][#], a web application for Paper by FiftyThree
+    - [Carapace][carapace], an image manipulation platform for JavaScript
+    - [Neue][neue], an asynchronous web font loader
+    - [Loomis][loomis], a web application for Paper by FiftyThree
 - 2013
-    - [Caisson][#], a cloud deployment utility
-    - [Excavator][#], a web application for capturing responsive screenshots
-    - [Dino][#], a DynamoDB object modeler for node.js
+    - [Caisson][caisson], a cloud deployment utility
+    - [Excavator][excavator], a web application for capturing responsive screenshots
+    - [Dino][dino], a DynamoDB object modeler for node.js
 - 2012
-    - [Sausage.js][#], a jQuery plugin for contextual pagination
+    - [Sausage.js][sausage], a jQuery plugin for contextual pagination
 
 ---
 
@@ -41,13 +41,22 @@ I'm currently building [Percolate][percolate].
 *Get in touch*:
 
 - [Github][github]
-- [Twitter][#]
-- [LinkedIn][#]
+- [Twitter][twitter]
+- [LinkedIn][linkedin]
 
 ---
 
 ***&copy; 2014***
 
 [#]: #
+[caisson]: http://caisson.co/
+[carapace]: https://github.com/percolate/carapace
+[dino]: https://github.com/christophercliff/dino
+[excavator]: http://excavator.io/
 [github]: https://github.com/christophercliff?tab=repositories
+[linkedin]: http://www.linkedin.com/in/christophercliff/
+[loomis]: https://loomis.herokuapp.com/
+[neue]: https://github.com/percolate/neue
 [percolate]: http://percolate.com
+[sausage]: http://christophercliff.com/sausage/
+[twitter]: https://twitter.com/ctcliff
