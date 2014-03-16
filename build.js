@@ -8,7 +8,7 @@ var templates = require('metalsmith-templates')
 var watch = require('metalsmith-watch')
 
 Metalsmith(__dirname)
-    .use(cleanup())
+    //.use(cleanup())
     .use(markdown({
         gfm: true
     }))
@@ -32,6 +32,7 @@ Metalsmith(__dirname)
     .use(watch('**/*.less'))
     .use(watch('**/*.hbs'))
     .use(watch('**/*.md'))
+    .destination('./')
     .build(function(err){
         if (err) throw err
     })
