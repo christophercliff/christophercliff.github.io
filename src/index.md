@@ -3,7 +3,7 @@ template: index.hbs
 title: Christopher Cliff | New York, NY
 ---
 
-## My name is ***Christopher Cliff***. I'm a software consultant based in *New York City* & *Milwaukee*.
+## My name is ***Christopher Cliff***. I'm a software consultant based in *New York City*.
 
 ---
 
