@@ -7,8 +7,19 @@ var path = require('path')
 var templates = require('metalsmith-templates')
 var watch = require('metalsmith-watch')
 
-Metalsmith(__dirname)
-    //.use(cleanup())
+var isDev = false
+
+process.argv.forEach(function(val, index, array) {
+    if (val === 'dev') isDev = true
+})
+
+var metalsmith = Metalsmith(__dirname)
+
+if (!isDev) {
+    metalsmith.use(cleanup())
+}
+
+metalsmith
     .use(markdown({
         gfm: true
     }))
@@ -29,16 +40,23 @@ Metalsmith(__dirname)
             outputSourceFiles: true
         }
     }))
-    .use(watch('**/*.less'))
-    .use(watch('**/*.hbs'))
-    .use(watch('**/*.md'))
-    .destination('./')
+
+if (isDev) {
+    metalsmith
+        .use(watch('**/*.less'))
+        .use(watch('**/*.hbs'))
+        .use(watch('**/*.md'))
+}
+
+metalsmith
     .build(function(err){
         if (err) throw err
     })
 
-connect()
-    .use(connect.static(path.resolve(__dirname, './build/')))
-    .listen(8000, function(){
-        console.log('running on port 8000')
-    })
+if (isDev) {
+    connect()
+        .use(connect.static(path.resolve(__dirname, './build/')))
+        .listen(8000, function(){
+            console.log('running on port 8000')
+        })
+}

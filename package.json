@@ -5,7 +5,9 @@
   "description": "A personal website for Christopher Cliff",
   "main": "index.js",
   "scripts": {
-    "build": "node ./build"
+    "dev": "node ./build dev",
+    "build": "node ./build",
+    "deploy": "node ./build && cd ./build && git init . && git add . && git commit -m 'Deploy'; git push 'git@github.com:christophercliff/christophercliff.github.com.git' master --force && rm -rf .git"
   },
   "repository": {
     "type": "git",
