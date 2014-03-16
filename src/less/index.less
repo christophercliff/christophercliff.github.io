@@ -1,0 +1,92 @@
+@import './fonts.less';
+
+@COLOR_PRIMARY: #fff;
+@COLOR_SECONDARY: #1d1d1f;
+
+@FONT_FAMILY_PRIMARY: 'Plantin', 'serif';
+
+@dimPrimary: 81px;
+@dimSecondary: 54px;
+@dimTertiary: 36px;
+
+.baseType() {
+    display: inline;
+    font-size: @dimTertiary;
+    font-weight: 100;
+    line-height: @dimTertiary*40/36;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: @COLOR_SECONDARY;
+    color: @COLOR_PRIMARY;
+    font-family: @FONT_FAMILY_PRIMARY;
+    margin: @dimPrimary @dimSecondary @dimSecondary;
+    padding: 0;
+}
+    h2 {
+        font-size: @dimPrimary;
+        font-weight: 100;
+        line-height: @dimPrimary;
+        margin: @dimSecondary 0;
+        padding: 0;
+    }
+    h3 {
+        font-size: @dimSecondary;
+        font-weight: 100;
+        line-height: @dimSecondary;
+        margin: @dimSecondary 0;
+        padding: 0;
+    }
+    p {
+        .baseType();
+        &:after {
+            content: ' '
+        }
+    }
+    ul {
+        .baseType();
+        list-style-type: none;
+
+    }
+    li {
+        display: inline;
+        &:before {
+            content: ' — '
+        }
+        li:before {
+            content: ' | '
+        }
+    }
+    strong {
+        font-weight: 500;
+    }
+    em {
+        font-style: italic;
+    }
+    strong em {
+        font-size: 0.70em;
+        font-style: normal;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    hr {
+        border: none;
+        border-top: solid 1px @COLOR_PRIMARY;
+        display: block;
+        margin: @dimSecondary 0;
+        opacity: 0.10;
+        padding: 0;
+    }
+    a {
+        color: @COLOR_PRIMARY;
+        font-size: 0.70em;
+        font-style: normal;
+        font-weight: 400;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
