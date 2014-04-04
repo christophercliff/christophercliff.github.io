@@ -1,24 +1,8 @@
-Github publishes [User Pages][user pages] from the `master` branch, so use `supermaster` as the master branch.
-
-## Build
-
-Clean rebuild:
-
-```
-$ npm run build
-```
-
-Dirty rebuild with a watch script and local server:
+Github publishes [User Pages][user pages] from the `master` branch, so use `supermaster` as the default branch.
 
 ```
 $ npm run dev
-```
-
-## Deploy
-
-Do a clean rebuild and force push to `master`:
-
-```
+$ npm run build
 $ npm run deploy
 ```
 

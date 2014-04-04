@@ -1,4 +1,3 @@
-var cleanup = require('metalsmith-cleanup')
 var connect = require('connect')
 var fingerprint = require('metalsmith-fingerprint')
 var less = require('metalsmith-less')
@@ -15,10 +14,6 @@ process.argv.forEach(function(val, index, array) {
 })
 
 var metalsmith = Metalsmith(__dirname)
-
-if (!isDev) {
-    metalsmith.use(cleanup())
-}
 
 metalsmith
     .use(less({

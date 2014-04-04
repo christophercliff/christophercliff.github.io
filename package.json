@@ -17,8 +17,7 @@
   "dependencies": {
     "connect": "^2.14.2",
     "handlebars": "^2.0.0-alpha.2",
-    "metalsmith": "^0.3.0",
-    "metalsmith-cleanup": "^0.0.1",
+    "metalsmith": "^0.6.0",
     "metalsmith-fingerprint": "^0.0.3",
     "metalsmith-less": "^0.0.3",
     "metalsmith-markdown": "^0.2.1",
