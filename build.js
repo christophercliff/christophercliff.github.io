@@ -1,5 +1,6 @@
 var cleanup = require('metalsmith-cleanup')
 var connect = require('connect')
+var fingerprint = require('metalsmith-fingerprint')
 var less = require('metalsmith-less')
 var markdown = require('metalsmith-markdown')
 var Metalsmith = require('metalsmith')
@@ -20,14 +21,6 @@ if (!isDev) {
 }
 
 metalsmith
-    .use(markdown({
-        gfm: true
-    }))
-    .use(templates({
-        engine: 'handlebars',
-        directory: './src/templates/',
-        pattern: '**/*.html'
-    }))
     .use(less({
         filter: function(path){ return path === 'less/index.less' },
         parse: {
@@ -39,6 +32,17 @@ metalsmith
             sourceMap: true,
             outputSourceFiles: true
         }
+    }))
+    .use(fingerprint({
+        pattern: 'css/index.css'
+    }))
+    .use(markdown({
+        gfm: true
+    }))
+    .use(templates({
+        engine: 'handlebars',
+        directory: './src/templates/',
+        pattern: '**/*.html'
     }))
 
 if (isDev) {
