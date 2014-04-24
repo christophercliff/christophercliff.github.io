@@ -19,7 +19,7 @@
     "handlebars": "^2.0.0-alpha.2",
     "metalsmith": "^0.6.0",
     "metalsmith-fingerprint": "^0.0.3",
-    "metalsmith-less": "^0.0.3",
+    "metalsmith-less": "^0.1.1",
     "metalsmith-markdown": "^0.2.1",
     "metalsmith-templates": "^0.3.0",
     "metalsmith-watch": "^0.0.2",

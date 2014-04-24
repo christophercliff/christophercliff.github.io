@@ -17,7 +17,7 @@ var metalsmith = Metalsmith(__dirname)
 
 metalsmith
     .use(less({
-        filter: function(path){ return path === 'less/index.less' },
+        pattern: 'less/index.less',
         parse: {
             paths: ['./src/less/'],
         },
