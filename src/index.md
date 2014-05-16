@@ -7,9 +7,9 @@ title: Christopher Cliff, Software Developer & Consultant
 
 ---
 
-### For the better part of a decade, I’ve had the privelage of creating some of the most widely used *websites*, *apps* and *developer tools* in the world.
-
 ### I specialize in **rapid product development**. That means: *conceptually sound*, *realized* software components that are delivered *efficiently* and of *high quality*.
+
+### For the better part of a decade, I’ve had the privelage of creating some of the most widely used *websites*, *apps* and *developer tools* in the world.
 
 ---
 
