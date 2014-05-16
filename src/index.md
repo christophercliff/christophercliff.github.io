@@ -3,11 +3,13 @@ template: index.hbs
 title: Christopher Cliff, Software Developer & Consultant
 ---
 
-## My name is ***Christopher Cliff***. I'm a software consultant based in *New York City* & *Milwaukee*.
+## My name is ***Christopher Cliff***. I’m a software consultant based in *New York City* & *Milwaukee*.
 
 ---
 
-### I specialize in **rapid product development**. That means: *conceptually sound*, *realized* software components that *meet a business objective*, delivered *efficiently* and of *high quality*.
+### For the better part of a decade, I’ve had the privelage of creating some of the most widely used *websites*, *apps* and *developer tools* in the world.
+
+### I specialize in **rapid product development**. That means: *conceptually sound*, *realized* software components that are delivered *efficiently* and of *high quality*.
 
 ---
 
@@ -34,7 +36,7 @@ I generally work with the following *tools*:
 
 ---
 
-I'm currently building [Percolate][percolate].
+I’m currently building [Percolate][percolate].
 
 ---
 
@@ -48,7 +50,6 @@ I'm currently building [Percolate][percolate].
 
 ***&copy; 2014***
 
-[#]: #
 [caisson]: http://caisson.co/
 [carapace]: https://github.com/percolate/carapace
 [dino]: https://github.com/christophercliff/dino
