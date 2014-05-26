@@ -24,7 +24,8 @@ I generally work with the following *tools*:
 *Selected work*:
 
 - 2014
-    - [Carapace][carapace], an image manipulation platform for JavaScript
+    - [mke-bus][mke-bus], a HAPI-REST service for Milwaukee's real time public bus data
+    - [Carapace][carapace], an image manipulation & graphics platform for JavaScript
     - [Neue][neue], an asynchronous web font loader
     - [Loomis][loomis], a web application for Paper by FiftyThree
 - 2013
@@ -50,6 +51,7 @@ I’m currently building [Percolate][percolate].
 
 ***&copy; 2014***
 
+[mke-bus]: https://github.com/christophercliff/mke-bus
 [caisson]: http://caisson.co/
 [carapace]: https://github.com/percolate/carapace
 [dino]: https://github.com/christophercliff/dino
