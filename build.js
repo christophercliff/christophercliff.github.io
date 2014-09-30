@@ -1,6 +1,7 @@
 var connect = require('connect')
 var fingerprint = require('metalsmith-fingerprint')
 var less = require('metalsmith-less')
+var ignore = require('metalsmith-ignore')
 var markdown = require('metalsmith-markdown')
 var Metalsmith = require('metalsmith')
 var path = require('path')
@@ -23,10 +24,9 @@ metalsmith
         },
         render: {
             ieCompat: false,
-            compress: true,
-            sourceMap: true,
-            outputSourceFiles: true
-        }
+            compress: false
+        },
+        useDefaultSourceMap: true
     }))
     .use(fingerprint({
         pattern: 'css/index.css'
@@ -39,6 +39,11 @@ metalsmith
         directory: './src/templates/',
         pattern: '**/*.html'
     }))
+    .use(ignore([
+        'css/index.css',
+        'less/*',
+        'templates/*'
+    ]))
 
 if (isDev) {
     metalsmith

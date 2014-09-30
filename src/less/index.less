@@ -16,13 +16,20 @@
     padding: 0;
 }
 
+// media
+
+html{ font-size: 18px; }
+
+@media screen and (min-width: 800px) {
+    html{ font-size: 36px; }
+}
+
 // rules
 
 html {
     background-color: @COLOR_SECONDARY;
     color: @COLOR_PRIMARY;
     font-family: @FONT_FAMILY_PRIMARY;
-    font-size: 18px;
     font-weight: 100;
 }
     body {
@@ -95,9 +102,3 @@ html {
                 text-decoration: underline;
             }
         }
-
-// media
-
-@media screen and (min-width: 800px) {
-    html{ font-size: 36px; }
-}
