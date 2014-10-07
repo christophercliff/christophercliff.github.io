@@ -24,6 +24,7 @@ I generally work with the following *tools*:
 *Selected work*:
 
 - 2014
+    - [JSON Expert][json-expert], low-rent network computing
     - [mke-bus][mke-bus], a HAPI-REST service for Milwaukee's real time public bus data
     - [Carapace][carapace], an image manipulation & graphics platform for JavaScript
     - [Neue][neue], an asynchronous web font loader
@@ -51,6 +52,7 @@ I’m currently building [Percolate][percolate].
 
 ***&copy; 2014***
 
+[json-expert]: https://json.expert
 [mke-bus]: https://github.com/christophercliff/mke-bus
 [caisson]: http://caisson.co/
 [carapace]: https://github.com/percolate/carapace
