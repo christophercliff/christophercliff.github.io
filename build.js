@@ -41,6 +41,7 @@ metalsmith
     }))
     .use(ignore([
         'css/index.css',
+        'fonts/*',
         'less/*',
         'templates/*'
     ]))
