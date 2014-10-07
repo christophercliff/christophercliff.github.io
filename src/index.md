@@ -24,7 +24,7 @@ I generally work with the following *tools*:
 *Selected work*:
 
 - 2014
-    - [JSON Expert][json-expert], low-rent network computing
+    - [JSON Expert][json-expert], Create a web-ready API from the documents on your hard drive
     - [mke-bus][mke-bus], a HAPI-REST service for Milwaukee's real time public bus data
     - [Carapace][carapace], an image manipulation & graphics platform for JavaScript
     - [Neue][neue], an asynchronous web font loader
