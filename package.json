@@ -5,9 +5,10 @@
   "description": "A personal website for Christopher Cliff",
   "main": "index.js",
   "scripts": {
+    "build": "npm run style && node ./build",
+    "deploy": "npm run build && cd ./build && git init . && git add . && git commit -m 'Deploy'; git push 'git@github.com:christophercliff/christophercliff.github.com.git' master --force && rm -rf .git",
     "dev": "node ./build dev",
-    "build": "node ./build",
-    "deploy": "node ./build && cd ./build && git init . && git add . && git commit -m 'Deploy'; git push 'git@github.com:christophercliff/christophercliff.github.com.git' master --force && rm -rf .git"
+    "style": "./node_modules/.bin/crispy ./build.js"
   },
   "repository": {
     "type": "git",
@@ -15,15 +16,17 @@
   },
   "homepage": "http://christophercliff.com",
   "dependencies": {
-    "connect": "^2.17.1",
-    "handlebars": "^2.0.0-alpha.4",
-    "metalsmith": "^0.8.0",
-    "metalsmith-fingerprint": "0.0.3",
+    "connect": "^3.3.4",
+    "crispy": "^3.1.0",
+    "handlebars": "^2.0.0",
+    "lodash": "^2.4.1",
+    "metalsmith": "^1.0.1",
+    "metalsmith-fingerprint": "^1.0.1",
     "metalsmith-ignore": "^0.1.2",
-    "metalsmith-less": "^1.0.1",
+    "metalsmith-less": "^1.0.3",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-templates": "^0.5.0",
-    "metalsmith-watch": "^0.1.1",
-    "underscore": "^1.6.0"
+    "metalsmith-simplewatch": "^1.0.0",
+    "metalsmith-templates": "^0.6.0",
+    "serve-static": "^1.8.0"
   }
 }
