@@ -9,13 +9,13 @@ title: Christopher Cliff, Software Developer & Consultant
 
 ### I specialize in **rapid product development**. That means: *conceptually sound*, *realized* software components that are delivered *efficiently* and of *high quality*.
 
-### For the better part of a decade, I’ve had the privelage of creating some of the most widely used *websites*, *apps* and *developer tools* in the world.
+### For the better part of a decade, I’ve had the privelege of creating some of the most widely used *websites*, *apps* and *developer tools* in the world.
 
 ---
 
-I generally work with the following *tools*:
+I usually work with the following *tools*:
 
-- ***User interfaces*** developed with **Backbone.js** or **Angular.js**
+- ***User interfaces*** developed with **JavaScript**
 - ***Web servers*** developed with **node.js**
 - ***Scalable services*** deployed to **cloud infrastructure**
 
