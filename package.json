@@ -3,7 +3,6 @@
   "name": "christophercliff.github.com",
   "version": "0.0.0",
   "description": "A personal website for Christopher Cliff",
-  "main": "index.js",
   "scripts": {
     "build": "npm run style && node ./build",
     "deploy": "npm run build && cd ./build && git init . && git add . && git commit -m 'Deploy'; git push 'git@github.com:christophercliff/christophercliff.github.com.git' master --force && rm -rf .git",
@@ -14,10 +13,8 @@
     "type": "git",
     "url": "git://github.com/christophercliff/christophercliff.github.com.git"
   },
-  "homepage": "http://christophercliff.com",
   "dependencies": {
-    "connect": "^3.3.4",
-    "crispy": "^3.1.0",
+    "crispy": "^3.1.1",
     "handlebars": "^2.0.0",
     "lodash": "^2.4.1",
     "metalsmith": "^1.0.1",
@@ -25,8 +22,8 @@
     "metalsmith-ignore": "^0.1.2",
     "metalsmith-less": "^1.0.3",
     "metalsmith-markdown": "^0.2.1",
-    "metalsmith-simplewatch": "^1.0.0",
-    "metalsmith-templates": "^0.6.0",
-    "serve-static": "^1.8.0"
+    "metalsmith-permalinks": "^0.4.0",
+    "metalsmith-simplewatch": "^2.0.0",
+    "metalsmith-templates": "^0.6.0"
   }
 }

@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>{{ title }}</title>
-        <link href="{{ fingerprint.[css/index.css] }}" rel="stylesheet" type="text/css" />
+        <link href="/{{ fingerprint.[css/index.css] }}" rel="stylesheet" type="text/css" />
         <script type="text/javascript">
         var _gaq = _gaq || [];
         _gaq.push(['_setAccount', 'UA-1582519-8']);
@@ -17,5 +17,7 @@
     </head>
     <body>
         {{& contents }}
+        <hr>
+        <p><strong><em>&copy; 2014</em></strong> <a href="/">Christopher Cliff</a></p>
     </body>
 </html>

@@ -1,11 +1,10 @@
-var connect = require('connect')
 var fingerprint = require('metalsmith-fingerprint')
 var less = require('metalsmith-less')
 var ignore = require('metalsmith-ignore')
 var markdown = require('metalsmith-markdown')
-var Metalsmith = require('metalsmith')
+var metalsmith = require('metalsmith')
 var path = require('path')
-var serveStatic = require('serve-static')
+var permalinks = require('metalsmith-permalinks')
 var templates = require('metalsmith-templates')
 var watch = require('metalsmith-simplewatch')
 
@@ -15,51 +14,50 @@ process.argv.forEach(function (val) {
     if (val === 'dev') isDev = true
 })
 
-var metalsmith = new Metalsmith(__dirname)
-
-metalsmith
-    .use(less({
-        pattern: 'less/index.less',
-        parse: {
-            paths: ['./src/less/'],
-        },
-        render: {
-            ieCompat: false,
-            compress: false,
-        },
-        useDefaultSourceMap: true,
-    }))
-    .use(fingerprint({
-        pattern: 'css/index.css',
-    }))
-    .use(markdown({
-        gfm: true,
-    }))
-    .use(templates({
-        engine: 'handlebars',
-        directory: './src/templates/',
-        pattern: '**/*.html',
-    }))
-    .use(ignore([
-        'css/index.css',
-        'fonts/*',
-        'less/*',
-        'templates/*',
-    ]))
-
 if (isDev) {
-    metalsmith.use(watch())
+    watch({
+        buildFn: build,
+        buildPath: path.resolve(__dirname, './build/'),
+        srcPath: path.resolve(__dirname, './src/'),
+    })
+} else {
+    build()
 }
 
-metalsmith
-    .build(function (err) {
-        if (err) throw err
-    })
-
-if (isDev) {
-    connect()
-        .use(serveStatic(path.resolve(__dirname, './build/')))
-        .listen(8000, function () {
-            console.log('running on port 8000')
+function build() {
+    metalsmith(__dirname)
+        .use(less({
+            pattern: 'less/index.less',
+            parse: {
+                paths: ['./src/less/'],
+            },
+            render: {
+                ieCompat: false,
+                compress: false,
+            },
+            useDefaultSourceMap: true,
+        }))
+        .use(fingerprint({
+            pattern: 'css/index.css',
+        }))
+        .use(markdown({
+            gfm: true,
+        }))
+        .use(permalinks({
+            relative: false,
+        }))
+        .use(templates({
+            engine: 'handlebars',
+            directory: './src/templates/',
+            pattern: '**/*.html',
+        }))
+        .use(ignore([
+            'css/index.css',
+            'fonts/*',
+            'less/*',
+            'templates/*',
+        ]))
+        .build(function (err) {
+            if (err) throw err
         })
 }
