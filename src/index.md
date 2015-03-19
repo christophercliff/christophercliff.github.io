@@ -1,15 +1,13 @@
 ---
 template: index.hbs
-title: Christopher Cliff, Software Developer & Consultant
+title: Christopher Cliff, a software consultant based in New York and Milwaukee
 ---
 
-# My name is ***Christopher Cliff***. I’m a software consultant based in *New York City* & *Milwaukee*.
+# My name is ***Christopher Cliff***. I’m a software consultant based in *New York* & *Milwaukee*.
 
 ---
 
-## I specialize in **rapid product development**. That means: *conceptually sound*, *realized* software components that are delivered *efficiently* and of *high quality*.
-
-## For the better part of a decade, I’ve had the privelege of creating some of the most widely used *websites*, *apps* and *developer tools* in the world.
+## I create *technology products*. For the better part of a decade, I’ve had the privelege of creating some of the most widely used *websites*, *apps*, *infrastructure* and *developer tools* in the world.
 
 ---
 
