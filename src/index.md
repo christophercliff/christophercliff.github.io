@@ -1,9 +1,9 @@
 ---
 template: index.hbs
-title: Christopher Cliff, a software consultant based in New York and Milwaukee
+title: Christopher Cliff, a software consultant based in New York City
 ---
 
-# My name is ***Christopher Cliff***. I’m a software consultant based in *New York* & *Milwaukee*.
+# My name is ***Christopher Cliff***. I’m a software consultant based in *New York City*.
 
 ---
 
