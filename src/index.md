@@ -22,7 +22,7 @@ title: Christopher Cliff, a software consultant based in New York City
 ##### *Selected work*:
 
 - 2015
-    - [Heroku Stripe Checkout][heroku-stripe-checkout], a self-hosted service for accepting payments with Stripe Checkout
+    - [Flatmarket][flatmarket], a free, open source e-commerce platform for static websites
     - [Tweet Lifetime][tweet-lifetime], a self-hosted service that continuously monitors your Twitter account and deletes old tweets
     - [Crispy][crispy], a JavaScript style guide packaged with syntax and style checkers
 - 2014
@@ -63,8 +63,8 @@ I’m currently building [Percolate][percolate].
 [crispy]: https://github.com/christophercliff/crispy
 [dino]: https://github.com/christophercliff/dino
 [excavator]: http://excavator.io/
+[flatmarket]: https://json.expert/flatmarket/
 [github]: https://github.com/christophercliff?tab=repositories
-[heroku-stripe-checkout]: https://github.com/christophercliff/heroku-stripe-checkout
 [json-expert]: https://json.expert/
 [linkedin]: https://www.linkedin.com/in/christophercliff
 [loomis]: https://loomis.herokuapp.com/
