@@ -22,21 +22,17 @@ title: Christopher Cliff, a software consultant based in New York City
 ##### *Selected work*:
 
 - 2015
-    - [Flatmarket][flatmarket], a free, open source e-commerce platform for static websites
-    - [Tweet Lifetime][tweet-lifetime], a self-hosted service that continuously monitors your Twitter account and deletes old tweets
-    - [Crispy][crispy], a JavaScript style guide packaged with syntax and style checkers
+    - [Flatmarket](/flatmarket/), a free, open source e-commerce platform for static websites
+    - [Tweet Lifetime](/tweet-lifetime/), a self-hosted service that continuously monitors your Twitter account and deletes old tweets
+    - [Crispy](https://github.com/christophercliff/crispy), a JavaScript style guide packaged with syntax and style checkers
 - 2014
-    - [JSON Expert][json-expert], create a web-ready API from the documents on your hard drive
-    - [mke-bus][mke-bus], a HAPI-REST service for Milwaukee's real time public bus data
-    - [Carapace][carapace], an image manipulation & graphics platform for JavaScript
-    - [Neue][neue], an asynchronous web font loader
-    - [Loomis][loomis], a web application for Paper by FiftyThree
+    - [JSON Expert](https://json.expert/), create a web-ready API from the documents on your hard drive
+    - [Carapace](https://github.com/percolate/carapace), an image manipulation & graphics platform for JavaScript
+    - [Neue](https://github.com/percolate/neue), an asynchronous web font loader
 - 2013
-    - [Caisson][caisson], a cloud deployment utility
-    - [Excavator][excavator], a web application for capturing responsive screenshots
-    - [Dino][dino], a DynamoDB object modeler for node.js
+    - [Caisson](/caisson/), a cloud deployment utility
 - 2012
-    - [Sausage.js][sausage], a jQuery plugin for contextual pagination
+    - [Sausage.js](/sausage/), a jQuery plugin for contextual pagination
 
 ---
 
@@ -48,29 +44,12 @@ title: Christopher Cliff, a software consultant based in New York City
 
 ---
 
-I’m currently building [Percolate][percolate].
+I’m currently building [Percolate](https://percolate.com/).
 
 ---
 
 ##### *Get in touch*:
 
-- [Github][github]
-- [Twitter][twitter]
-- [LinkedIn][linkedin]
-
-[caisson]: http://caisson.co/
-[carapace]: https://github.com/percolate/carapace
-[crispy]: https://github.com/christophercliff/crispy
-[dino]: https://github.com/christophercliff/dino
-[excavator]: http://excavator.io/
-[flatmarket]: https://json.expert/flatmarket/
-[github]: https://github.com/christophercliff?tab=repositories
-[json-expert]: https://json.expert/
-[linkedin]: https://www.linkedin.com/in/christophercliff
-[loomis]: https://loomis.herokuapp.com/
-[mke-bus]: https://github.com/christophercliff/mke-bus
-[neue]: https://github.com/percolate/neue
-[percolate]: https://percolate.com/
-[sausage]: https://christophercliff.com/sausage/
-[tweet-lifetime]: /tweet-lifetime
-[twitter]: https://twitter.com/ctcliff
+- [Github](https://github.com/christophercliff?tab=repositories)
+- [Twitter](https://twitter.com/ctcliff)
+- [LinkedIn](https://www.linkedin.com/in/christophercliff)
