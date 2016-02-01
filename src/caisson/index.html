@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Deploy your static website to AWS - Caisson</title>
+
+<link href="assets/css/all-f4069d5d6d61e24aa3e7999035ae1596.css" rel="stylesheet">
+
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,600" rel="stylesheet" type="text/css">
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-1582519-8']);
+        _gaq.push(['_trackPageview']);
+        (function(){
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+        </script>
+    </head>
+    <body>
+        <article><h1>Caisson</h1>
+<h2>Deploy your static website to AWS</h2>
+<p>Caisson does everything you need to host and deploy a static website on <a href="https://aws.amazon.com/">AWS</a> via the root domain, e.g. <code>http://yoursite.com</code>.</p>
+<h2>Why?</h2>
+<p>AWS allows root domain website hosting via an <a href="http://aws.typepad.com/aws/2012/12/root-domain-website-hosting-for-amazon-s3.html">elaborate setup process</a>. Caisson streamlines this process by initializing the necessary <a href="http://aws.amazon.com/s3/">S3</a> buckets, <a href="http://aws.amazon.com/route53/">Route 53</a> DNS settings, and a <a href="http://aws.amazon.com/cloudfront/">CloudFront</a> CDN for good measure.</p>
+<h2>Installation</h2>
+<p>Install with <a href="https://npmjs.org/package/caisson">npm</a>:</p>
+<pre><code><span class="comment">$</span> <span class="comment">npm</span> <span class="comment">install</span> <span class="literal">-</span><span class="comment">g</span> <span class="comment">caisson</span></code></pre>
+<h2>Get Started</h2>
+<p>Initialize AWS:</p>
+<pre><code><span class="variable">$ </span>caisson init yoursite.com</code></pre>
+<p>Then push your build directory to S3:</p>
+<pre><code><span class="variable">$ </span>caisson push</code></pre>
+<p>You need to manually update your DNS to use Route 53&#39;s name servers. Caisson will log this information in <code>caisson.json</code>.</p>
+<h2>Help</h2>
+<p>For additional help, see:</p>
+<pre><code><span class="comment">$</span> <span class="comment">caission</span> <span class="literal">-</span><span class="literal">-</span><span class="comment">help</span></code></pre>
+<h2>Tests</h2>
+<p>Clone the repo, install the dependencies and run.</p>
+<pre><code><span class="variable">$ </span>npm install
+<span class="variable">$ </span>npm test</code></pre>
+<h2>License</h2>
+<p>MIT License, see <a href="https://github.com/christophercliff/caisson/blob/master/LICENSE.md">LICENSE</a> for details.</p>
+</article>
+        <ul>
+            <li>
+                <a href="https://github.com/christophercliff/caisson">Source</a>
+            </li>
+            <li>
+                <a href="https://github.com/christophercliff/caisson/issues">Issues</a>
+            </li>
+        </ul>
+        <footer>A project by <a href="https://twitter.com/ctcliff">@ctcliff</a></footer>
+    </body>
+</html>
