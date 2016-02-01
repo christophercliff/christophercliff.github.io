@@ -1,0 +1,69 @@
+{
+  "info": {
+    "description": "Flatmarket is a free, open source e-commerce platform for static websites. This is a demo, products are not for sale.",
+    "name": "Welcome to Flatmarket"
+  },
+  "products": {
+    "001": {
+      "amount": 1000,
+      "description": "10 lbs.",
+      "images": [
+        "images/pineapple.png"
+      ],
+      "name": "Pineapple"
+    },
+    "002": {
+      "amount": 1000,
+      "description": "10 lbs.",
+      "images": [
+        "images/banana.png"
+      ],
+      "name": "Banana",
+      "plan": "test_10_trial"
+    },
+    "003": {
+      "amount": 1000,
+      "description": "10 lbs.",
+      "images": [
+        "images/peach.png"
+      ],
+      "name": "Peach"
+    },
+    "004": {
+      "amount": 1000,
+      "description": "10 lbs.",
+      "images": [
+        "images/cherry.png"
+      ],
+      "name": "Cherry",
+      "plan": "test_10_trial"
+    },
+    "005": {
+      "amount": 1000,
+      "description": "10 lbs.",
+      "images": [
+        "images/plum.png"
+      ],
+      "name": "Plum"
+    },
+    "006": {
+      "amount": 1000,
+      "description": "10 lbs.",
+      "images": [
+        "images/pomegranate.png"
+      ],
+      "name": "Pomegranate",
+      "plan": "test_10_trial"
+    }
+  },
+  "server": {
+    "host": "flatmarket.herokuapp.com"
+  },
+  "stripe": {
+    "allowRememberMe": false,
+    "billingAddress": true,
+    "panelLabel": "Buy now {{amount}}",
+    "publishableKey": "pk_test_U3D2c6KZqp7LOiMTzAFBenUe",
+    "shippingAddress": true
+  }
+}
