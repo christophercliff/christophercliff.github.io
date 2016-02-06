@@ -24,7 +24,6 @@ title: Christopher Cliff, a software consultant based in New York City
 - 2015
     - [Flatmarket](/flatmarket/), a free, open source e-commerce platform for static websites
     - [Tweet Lifetime](/tweet-lifetime/), a self-hosted service that continuously monitors your Twitter account and deletes old tweets
-    - [Crispy](https://github.com/christophercliff/crispy), a JavaScript style guide packaged with syntax and style checkers
 - 2014
     - [JSON Expert](https://json.expert/), create a web-ready API from the documents on your hard drive
     - [Carapace](https://github.com/percolate/carapace), an image manipulation & graphics platform for JavaScript
