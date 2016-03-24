@@ -7,7 +7,7 @@ title: Christopher Cliff, a software consultant based in New York City
 
 ---
 
-## I create *technology products*. For the better part of a decade, I’ve had the privelege of creating some of the most widely used *websites*, *apps*, *infrastructure* and *developer tools* in the world.
+## I create *technology products*. For the better part of a decade, I’ve had the privelege of creating some of the most widely used *applications*, *services*, and *developer tools* in the world.
 
 ---
 
@@ -25,6 +25,7 @@ title: Christopher Cliff, a software consultant based in New York City
     - [Flatmarket](/flatmarket/), a free, open source e-commerce platform for static websites
     - [Tweet Lifetime](/tweet-lifetime/), a self-hosted service that continuously monitors your Twitter account and deletes old tweets
 - 2014
+    - [MKE Bus](https://mke-bus.herokuapp.com/), a humanized web API for the Milwaukee County Transit System real time bus data
     - [JSON Expert](https://json.expert/), create a web-ready API from the documents on your hard drive
     - [Carapace](https://github.com/percolate/carapace), an image manipulation & graphics platform for JavaScript
     - [Neue](https://github.com/percolate/neue), an asynchronous web font loader
