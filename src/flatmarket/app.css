@@ -81,6 +81,20 @@ main section {
   margin: 1.5%;
   position: relative;
 }
+main section .placeholder {
+  color: #999;
+  height: 96px;
+  margin: -48px 0 0 -48px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transition: 0.25s ease-out;
+  transition-property: opacity;
+  width: 96px;
+}
+main section.loaded .placeholder {
+  opacity: 0.00;
+}
 main section .price {
   background: #2fdab8;
   color: #fff;
@@ -102,6 +116,14 @@ main section .image {
   background-repeat: no-repeat;
   background-size: contain;
   margin: 60px 20% 80px;
+  opacity: 0.00;
+  transform: translate3d(0, 4px, 0);
+  transition: 0.35s ease-out;
+  transition-property: transform, opacity;
+}
+main section.loaded .image {
+  opacity: 1.00;
+  transform: translate3d(0, 0, 0);
 }
 main section .action {
   bottom: 0;
@@ -255,6 +277,9 @@ aside {
 }
 .icon-48 {
   font-size: 48px;
+}
+.icon-96 {
+  font-size: 96px;
 }
 
 /*# sourceMappingURL=app.css.map*/
