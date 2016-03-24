@@ -40,7 +40,6 @@ title: Christopher Cliff, a software consultant based in New York City
 
 - [A Free, Self-Hosted Backend for Stripe Checkout](https://json.expert/a-free-self-hosted-backend-for-stripe-checkout/)
 - [Introducing Tweet Lifetime](/tweet-lifetime/)
-- [The Holy Grail of Static Website Hosting](https://json.expert/the-holy-grail-of-static-website-hosting/)
 
 ---
 
