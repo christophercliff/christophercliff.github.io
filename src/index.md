@@ -7,7 +7,7 @@ title: Christopher Cliff, a software consultant based in New York City
 
 ---
 
-## I create *technology products*. For the better part of a decade, I’ve had the privelege of creating some of the most widely used *applications*, *services*, and *developer tools* in the world.
+## I create *technology products*. Over the past decade, I’ve built some of the most widely used *applications*, *services*, and *developer tools* in the world.
 
 ---
 
@@ -38,7 +38,6 @@ title: Christopher Cliff, a software consultant based in New York City
 
 ##### *Blog*:
 
-- [A Free, Self-Hosted Backend for Stripe Checkout](https://json.expert/a-free-self-hosted-backend-for-stripe-checkout/)
 - [Introducing Tweet Lifetime](/tweet-lifetime/)
 
 ---
