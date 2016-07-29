@@ -38,6 +38,7 @@ title: Christopher Cliff, a software consultant based in New York City
 
 ##### *Blog*:
 
+- [Eppstein k shortest paths in the web browser with OpenStreetMap](/eppstein/)
 - [Introducing Tweet Lifetime](/tweet-lifetime/)
 
 ---
