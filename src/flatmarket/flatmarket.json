@@ -18,8 +18,7 @@
       "images": [
         "images/banana.png"
       ],
-      "name": "Banana",
-      "plan": "test_10_trial"
+      "name": "Banana"
     },
     "003": {
       "amount": 1000,
@@ -35,8 +34,7 @@
       "images": [
         "images/cherry.png"
       ],
-      "name": "Cherry",
-      "plan": "test_10_trial"
+      "name": "Cherry"
     },
     "005": {
       "amount": 1000,
@@ -52,18 +50,16 @@
       "images": [
         "images/pomegranate.png"
       ],
-      "name": "Pomegranate",
-      "plan": "test_10_trial"
+      "name": "Pomegranate"
     }
   },
   "server": {
-    "host": "flatmarket.herokuapp.com"
+    "host": "6qq8e2dyh9.execute-api.us-east-1.amazonaws.com",
+    "pathname": "/flatmarket/"
   },
   "stripe": {
     "allowRememberMe": false,
-    "billingAddress": true,
     "panelLabel": "Buy now {{amount}}",
-    "publishableKey": "pk_test_U3D2c6KZqp7LOiMTzAFBenUe",
-    "shippingAddress": true
+    "publishableKey": "pk_test_U3D2c6KZqp7LOiMTzAFBenUe"
   }
 }
