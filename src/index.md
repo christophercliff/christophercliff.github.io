@@ -40,7 +40,7 @@ title: Christopher Cliff, a software consultant based in New York City
 
 - [Dijkstra](/dijkstra/)
 - [Eppstein](/eppstein/)
-- [Introducing Tweet Lifetime](/tweet-lifetime/)
+- [Tweet Lifetime](/tweet-lifetime/)
 
 ---
 
