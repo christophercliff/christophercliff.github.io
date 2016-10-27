@@ -19,6 +19,15 @@ title: Christopher Cliff, a software consultant based in New York City
 
 ---
 
+##### *Blog*:
+
+- [Dijkstra’s algorithm on OpenStreetMap with dynamic cost manipulation](/dijkstra2/)
+- [Dijkstra’s algorithm in the web browser with OpenStreetMap](/dijkstra/)
+- [Eppstein’s k shortest paths in the web browser with OpenStreetMap](/eppstein/)
+- [Tweet Lifetime](/tweet-lifetime/)
+
+---
+
 ##### *Selected work*:
 
 - 2015
@@ -33,15 +42,6 @@ title: Christopher Cliff, a software consultant based in New York City
     - [Caisson](/caisson/), a cloud deployment utility
 - 2012
     - [Sausage.js](/sausage/), a jQuery plugin for contextual pagination
-
----
-
-##### *Blog*:
-
-- [Dijkstra’s algorithm on OpenStreetMap with dynamic cost manipulation](/dijkstra2/)
-- [Dijkstra’s algorithm in the web browser with OpenStreetMap](/dijkstra/)
-- [Eppstein’s k shortest paths in the web browser with OpenStreetMap](/eppstein/)
-- [Tweet Lifetime](/tweet-lifetime/)
 
 ---
 
