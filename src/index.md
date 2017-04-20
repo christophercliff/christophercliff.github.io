@@ -7,18 +7,6 @@ title: Christopher Cliff, a software consultant based in New York City
 
 ---
 
-## I create *technology products*. Over the past decade, I’ve built some of the most widely used *applications*, *services*, and *developer tools* in the world.
-
----
-
-##### I usually work with the following *tools*:
-
-- ***User interfaces*** developed with **JavaScript**
-- ***Web servers*** developed with **node.js**
-- ***Scalable services*** deployed to **cloud infrastructure**
-
----
-
 ##### *Blog*:
 
 - [ANSPR0 near-shortest paths in the web browser with OpenStreetMap](/anspr0/)
