@@ -1,0 +1,21 @@
+/* === Roboto Mono - 500 */
+@font-face {
+	font-family: 'Roboto Mono';
+	font-style: normal;
+	font-weight: 500;
+	
+	src: local("Roboto Mono Medium"),
+		local("RobotoMono-Medium"),
+		url("./font/RobotoMono-Medium.woff") format("woff");
+}
+
+/* === Source Sans Pro - 600 */
+@font-face {
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 600;
+	
+	src: local("Source Sans Pro SemiBold"),
+		local("SourceSansPro-SemiBold"),
+		url("./font/SourceSansPro-SemiBold.woff") format("woff");
+}
