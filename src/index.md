@@ -7,8 +7,9 @@ title: Christopher Cliff, a software consultant based in Milwaukee
 
 ---
 
-##### _Blog_:
+##### _Projects_:
 
+- [GeoTessellator, create a tessellated vector grid from any geographic boundary](/geotessellator/)
 - [Underscore to Lodash Converter](/underscore-to-lodash/)
 - [ANSPR0 near-shortest paths in the web browser with OpenStreetMap](/anspr0/)
 - [Dijkstra’s algorithm on OpenStreetMap with dynamic cost manipulation](/dijkstra2/)
@@ -18,7 +19,7 @@ title: Christopher Cliff, a software consultant based in Milwaukee
 
 ---
 
-##### _Selected work_:
+##### _Open source_:
 
 - 2017
   - [react-tree-list](/react-tree-list/), an extensible, composable React component for developing tree UIs
