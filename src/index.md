@@ -36,12 +36,7 @@ title: Christopher Cliff, a software consultant based in Milwaukee
 
 ---
 
-I’m currently building [Percolate](https://percolate.com/).
-
----
-
 ##### _Get in touch_:
 
 - [Github](https://github.com/christophercliff?tab=repositories)
-- [Twitter](https://twitter.com/ctcliff)
 - [LinkedIn](https://www.linkedin.com/in/christophercliff)
